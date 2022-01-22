@@ -181,9 +181,9 @@ body{
 }
 
 .project-img{
-    width: 80%;
-    height: 80%;
-    position:relative;
+    width: 100%;
+    height: 100%;
+    position:absolute;
     top: 0;
     left: 0;
     object-fit: cover;
@@ -194,10 +194,10 @@ body{
 
 .project-content{
     position: relative;
-    padding: 100px;
-    color: #fff;
+    padding: 40px;
+    color: rgb(3, 3, 3);
     transition: .5s;
-    opacity: 0;
+    opacity:0;
 }
 
 .project-title{
@@ -236,11 +236,12 @@ body{
 }
 
 .project-card:hover .project-img{
-    filter: blur(20px);
+    filter: blur(10px);
 }
 
 .project-card:hover .project-content{
     opacity: 1;
+
 }
 
 .home-section.active,
@@ -252,3 +253,32 @@ body{
     z-index: 8;
 }
 
+/* Contact-section */
+
+.contact-section{
+    width: 100%;
+    min-height: 100vh;
+    padding: 150px 100px 0;
+    position:fixed;
+    top: 0;
+    opacity: 0;
+    transition: 1s;
+}
+
+.contact{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30% 65%;
+    grid-gap: 40px;
+}
+
+
+.contact-info{
+    color: rgb(243, 240, 240);
+    opacity: 0.6;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+
+}
