@@ -181,8 +181,8 @@ body{
 }
 
 .project-img{
-    width: 100%;
-    height: 100%;
+    width:80%;
+    height: 80%;
     position:absolute;
     top: 0;
     left: 0;
@@ -193,11 +193,12 @@ body{
 }
 
 .project-content{
-    position: relative;
+    position:absolute;
     padding: 40px;
     color: rgb(3, 3, 3);
     transition: .5s;
-    opacity:0;
+    opacity:0.6;
+    
 }
 
 .project-title{
@@ -272,12 +273,23 @@ body{
     grid-gap: 40px;
 }
 
+.contact-img-container{
+    position: relative;
+}
+.contact-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    
+}
 
 .contact-info{
     color: rgb(243, 240, 240);
-    opacity: 0.6;
+    opacity: 1;
     font-size: 20px;
     line-height: 40px;
+    position:relative;
 }
 
 
