@@ -242,17 +242,10 @@ body{
 
 .project-card:hover .project-content{
     opacity: 1;
+    float:right;
 
 }
 
-.home-section.active,
-.project-section.active,
-.about-section.active,
-.contact-section.active{
-    position: relative;
-    opacity: 1;
-    z-index: 8;
-}
 
 /* Contact-section */
 
@@ -293,4 +286,11 @@ body{
 }
 
 
+.home-section.active,
+.project-section.active,
+.about-section.active,
+.contact-section.active{
+    position: relative;
+    opacity: 1;
+    z-index: 8;
 }
